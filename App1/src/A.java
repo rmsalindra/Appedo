@@ -28,6 +28,8 @@ public class A {
         	System.out.println("active");
         } else if(endDate.before(today)){
         	System.out.println("stopped");
+        } else {
+        	System.out.println("Mummy");
         }
 
 
